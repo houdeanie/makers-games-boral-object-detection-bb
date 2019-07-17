@@ -118,7 +118,7 @@ public class TFLiteObjectDetectionAPIModel implements Classifier {
       if (line.equals("tv")) {
         d.labels.add(line);
       } else {
-        d.labels.add()
+        d.labels.add(line)
         //d.labels.add(Integer.toString(DeanHou));
         //DeanHou += 1;
       }
